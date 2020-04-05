@@ -1,0 +1,16 @@
+name: "Github actions SSH"
+description: "Adds SSH key to ssh-agent"
+author: "irishdistillers"
+inputs:
+  SSH_PRIVATE_KEY: # Private Key
+    description: "Private Key"
+    required: true
+  SSH_AUTH_SOCK:
+    description: 'Where to place the SSH Agent auth socket'
+    default: /tmp/ssh-auth.sock
+runs:
+  using: "node12"
+  main: "dist/index.js"
+branding:
+  color: "green"
+  icon: "truck"
