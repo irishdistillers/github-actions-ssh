@@ -1,0 +1,7 @@
+{
+    "name": "irishdistillers/github-actions-ssh",
+    "description": "Github Actions to manage SSH",
+    "type": "project",
+    "license": "proprietary",
+    "require": {}
+}
